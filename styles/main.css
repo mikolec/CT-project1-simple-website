@@ -7,24 +7,24 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-style: normal;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 h1 {
+  margin-bottom: 65px;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.4;
-  margin-bottom: 65px;
 }
 
 h2 {
+  margin-bottom: 50px;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 50px;
 }
 
 a {
@@ -36,11 +36,11 @@ a.disabled {
 }
 
 .btn {
+  border: 3px solid #fff;
+  padding: 11px 57px;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  border: 3px solid #fff;
-  padding: 11px 57px;
   transition: all 0.3s;
 }
 
@@ -61,8 +61,8 @@ nav {
 }
 
 nav a {
-  color: #fff;
   margin-left: 45px;
+  color: #fff;
 }
 
 .nav-container {
@@ -78,13 +78,13 @@ nav a {
 }
 
 #home {
+  position: relative;
   height: 100vh;
   width: 100%;
   color: #fff;
-  background-image: url('https://picsum.photos/1920/1080');
+  background-image: url("https://picsum.photos/1920/1080");
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .home-shadow {
@@ -95,16 +95,16 @@ nav a {
 }
 
 .home-container {
-  height: 100%;
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .home-text {
-  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 60%;
 }
 
 .home-text h1,
@@ -114,9 +114,9 @@ h2 {
 }
 
 #about {
+  padding: 60px 0;
   color: #000;
   background-color: #f1f1f1;
-  padding: 60px 0;
 }
 
 #about h1 {
@@ -125,29 +125,30 @@ h2 {
 
 #about .person {
   display: flex;
-  margin: 60px 0;
   justify-content: space-between;
+  margin: 60px 0;
   font-size: 18px;
   line-height: 1.5;
 }
+
 #about .person:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
 #about .img-container {
-  text-align: center;
   width: 25%;
+  text-align: center;
 }
+
 #about img {
+  display: block;
   max-width: 100%;
   max-height: 100%;
-  display: block;
   margin: auto auto;
   border-radius: 50%;
 }
 
 #about .person-description {
-  /* flex: 1 0 60%; */
   width: 70%;
 }
 
@@ -156,32 +157,32 @@ h2 {
 }
 
 #about .person-description h3 {
-  font-weight: bold;
   margin: 20px 0;
+  font-weight: bold;
 }
 
 #offer {
-  background-color: #405d78;
   padding: 80px 0;
+  background-color: #405d78;
 }
 
 #offer h1 {
-  color: #fff;
   margin-bottom: 80px;
+  color: #fff;
 }
 
 .box-container {
-  width: 60vh;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 30%);
   grid-template-rows: auto;
   grid-column-gap: 3vh;
   grid-row-gap: 3vh;
+  width: 60vh;
+  margin: 0 auto;
 }
 
 .box-container > div::after {
-  content: '';
+  content: "";
   display: block;
   /* trick ustawiający wysokość na 100% szerokości elementu */
   padding-bottom: 100%;
@@ -195,17 +196,16 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  color: #000;
-  font-size: 24px;
-  line-height: 28px;
-  background-color: #f1f1f1;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: #000;
+  background-color: #f1f1f1;
+  font-size: 24px;
+  line-height: 28px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: all 0.5s;
 }
@@ -219,20 +219,20 @@ h2 {
 }
 
 .box-new::before {
-  content: '';
-  width: 25px;
-  height: 25px;
-  background-color: #e07a64;
+  content: "";
   position: absolute;
   top: calc(-25px / 2);
   left: calc(-25px / 2);
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
+  background-color: #e07a64;
 }
 
 footer {
+  padding: 20px 0;
   background-color: #4e4e4e;
   color: #fff;
-  padding: 20px 0;
 }
 
 footer .footer-container {
@@ -247,7 +247,7 @@ footer h3 {
 }
 
 footer a {
+  margin-left: 18px;
   color: #fff;
   font-size: 32px;
-  margin-left: 18px;
 }
