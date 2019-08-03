@@ -12,15 +12,29 @@
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="styles/medium.css" />
+    <link rel="stylesheet" media="screen and (min-width: 960px)" href="styles/large.css" />
   </head>
   <body>
     <nav>
       <div class="container nav-container">
         <a href="#">nazwa firmy</a>
-        <div>
-          <a href="#about">o nas</a>
-          <a href="#offer">oferta</a>
-          <a class="disabled" disabled>kontakt</a>
+
+        <div class="nav-toggler">
+          <input type="checkbox" />
+          <div class="nav-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <!-- target elements using css trick need to have same parent as input and be placed after it -->
+          <div class="nav-links">
+            <a href="#about">o nas</a>
+            <a href="#offer">oferta</a>
+            <a class="disabled" disabled>kontakt</a>
+          </div>
         </div>
       </div>
     </nav>

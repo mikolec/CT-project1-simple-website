@@ -1,0 +1,93 @@
+/* GENERAL */
+
+/* NAV */
+
+nav a {
+  margin-left: 45px;
+}
+
+.nav-bars {
+  display: none;
+}
+
+.nav-links {
+  flex-direction: row;
+  z-index: 2;
+  transform: translate(0%, 0%);
+  position: relative;
+  padding: 0;
+}
+
+.nav-links a {
+  width: auto;
+}
+
+/* HOME */
+
+.home-text {
+  width: 60%;
+}
+
+.home-text h1,
+h2 {
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+/* ABOUT */
+
+#about h1 {
+  text-align: left;
+}
+
+.person {
+  flex-direction: row;
+}
+
+.person:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.person .img-container {
+  width: 30%;
+}
+
+.person .person-description {
+  width: 65%;
+  text-align: left;
+}
+
+.person:nth-child(odd) .person-description {
+  text-align: right;
+}
+
+/* OFFER */
+
+/* #offer {
+  padding: 80px 0;
+  background-color: #405d78;
+} */
+
+#offer h1 {
+  font-size: 36px;
+}
+
+.box-container {
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 90vw;
+}
+
+.box-container .box-content {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* FOOTER */
+footer {
+  height: 70px;
+}
+
+footer .footer-container {
+  flex-direction: row;
+}
