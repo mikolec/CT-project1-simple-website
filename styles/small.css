@@ -212,7 +212,6 @@ h2 {
 }
 
 .person-description h3 {
-  margin: 20px 0;
   font-weight: bold;
 }
 
@@ -267,10 +266,6 @@ h2 {
   transition: all 0.5s;
 }
 
-.box-content:hover {
-  transform: scale(1.05);
-}
-
 .box-content em {
   font-size: 18px;
 }
@@ -299,7 +294,7 @@ footer {
 footer .footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
 }
@@ -307,10 +302,12 @@ footer .footer-container {
 footer h3 {
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 footer a {
-  margin-left: 18px;
+  margin: 0 18px;
   color: #fff;
   font-size: 32px;
+  text-align: center;
 }

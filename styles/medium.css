@@ -91,3 +91,11 @@ footer {
 footer .footer-container {
   flex-direction: row;
 }
+
+footer h3 {
+  text-align: left;
+}
+
+footer a {
+  margin: 0 0 0 18px;
+}

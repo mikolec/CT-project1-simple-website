@@ -1,3 +1,13 @@
+a:hover:not(.disabled),
+a:active:not(.disabled) {
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -16,4 +26,12 @@
   grid-column-gap: 60px;
   grid-row-gap: 60px;
   width: 720px;
+}
+
+.box-content:hover {
+  transform: scale(1.05);
+}
+
+footer .footer-container {
+  justify-content: space-between;
 }

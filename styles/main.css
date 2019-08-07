@@ -31,10 +31,7 @@ a {
   color: #fff;
   padding: 10px 0;
 }
-a:hover:not(.disabled),
-a:active:not(.disabled) {
-  font-weight: bold;
-}
+
 a.disabled {
   cursor: not-allowed;
   color: #aaa;
@@ -47,9 +44,4 @@ a.disabled {
   font-size: 18px;
   font-weight: bold;
   transition: all 0.3s;
-}
-
-.btn:hover {
-  background-color: #fff;
-  color: #000;
 }
